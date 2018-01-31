@@ -406,7 +406,7 @@ void solve(int initial[N][N],int final[N][N])
                             min->y + col[i],
                             min->level + 1, min);
                 child->cost = calculateCost(child->mat, final);
-                printf("step1\n");
+                //printf("step1\n");
                 int ono=0,cno=0;
                 if(pq!=NULL){
                     //printf("hai surya");
@@ -415,7 +415,7 @@ void solve(int initial[N][N],int final[N][N])
                 if(clist!=NULL){
                     cno = findclosedlist(clist,child);
                 }
-                printf("step2\n");
+                //printf("step2\n");
                 
                 if(ono==1){
                     heapify(pq);
@@ -443,7 +443,7 @@ void solve(int initial[N][N],int final[N][N])
                 }
             }
         }
-        printf("step3\n");
+        //printf("step3\n");
         heapify(pq);
     }
 }

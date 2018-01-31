@@ -1,5 +1,5 @@
 # Solving-15-SLIDE-PUZZLE-using-A*-algorithm-
-In this project I had implemented a 'c' code to solve 16 slide puzzle using A* algorithm.<br/>
+In this project I had implemented a 'c' code to solve 15 slide puzzle using A* algorithm.<br/>
 Here the heuristic H(n)=Sum of “number of moves each tile is away from its goal position”.Compile and run the 'AI_optimal(H2).c' file and give the 4x4 input matrix and the output will be:<br/>
 1)matrix is solvable matrix or not.<br/>
 2)all the matrices in the path of reaching the goal matrix<br/>

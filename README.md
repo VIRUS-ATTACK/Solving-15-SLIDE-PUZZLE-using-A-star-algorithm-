@@ -1,4 +1,5 @@
 # Solving-15-SLIDE-PUZZLE-using-A*-algorithm-
+# heuristic H(n) = sum of manhattan distances of all the tiles
 In this project I had implemented a 'c' code to solve 15 slide puzzle using A* algorithm.<br/>
 Here the heuristic H(n)=Sum of “number of moves each tile is away from its goal position”.Compile and run the 'AI_optimalH2.c' file and give the 4x4 input matrix and the output will be:<br/>
 1)matrix is solvable matrix or not.<br/>
@@ -36,4 +37,4 @@ Here the heuristic H(n)=Sum of “number of moves each tile is away from its goa
 7 3 11 10<br/>
 0 9 14 12<br/>
 5 6 13 15<br/>
-# Note:This code only works for solvable 4x4 matrices and for some solvable matrices it takes too much of time.
+# Note:This code only works for solvable 4x4 matrices and for some solvable matrices it may take too much time.
